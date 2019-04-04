@@ -1,0 +1,41 @@
+.dropbtn {
+    background-color: gray;
+    color: white;
+    padding: 10x;
+    font-size: 10px;
+    border: none;
+}
+    
+.dropdown {
+    position: center;
+    display: inline-block;
+}
+    
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 100px;
+    box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    font-size: 12pt
+}
+    
+.dropdown-content a {
+    color: black;
+    padding: 6px 6px;
+    text-decoration: none;
+    display: block;
+}
+    
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+    
+.dropdown:hover .dropdown-content {
+    display: inline-table;
+}
+    
+.dropdown:hover .dropbtn {
+    background-color: gainsboro;
+}
