@@ -3,13 +3,47 @@
         <head>
             <title>Music Suggestions</title>
             <meta charset="utf-8">
+            <link rel="stylesheet" href="/475personalproject/CSS/dropdown.css">
         </head>
         <body>
             <nav>
+                <div class="dropdown">
+                    <button class="dropbtn">About</button>
+                    <div class="dropdown-content">
+                        <a href="/475personalproject/HTML/hobbies.html">Hobbies</a>
+                        <a href="/475personalproject/HTML/pastendevers.html">Past Endevers</a>
+                        <a href="/475personalproject/HTML/vacation.html">Vacation</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">Education</button>
+                    <div class="dropdown-content">
+                        <a href="/475personalproject/HTML/education.html">Education</a>
+                        <a href="/475personalproject/HTML/niuprojects.html">NIU Projects</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">Future</button>
+                    <div class="dropdown-content">
+                        <a href="/475personalproject/HTML/futureendevers.html">Future Endevers</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">Suggestions</button>
+                    <div class="dropdown-content">
+                        <a href="/475personalproject/HTML/musicsuggestion.html">Music Suggestion</a>
+                        <a href="/475personalproject/HTML/vacationsug.html">Vacation Suggestion</a>
+                    </div>
+                </div>
             </nav>
             <form>
                 <h2>Music Suggestion</h2>
-                
+                <label for="songtitle">*Song Title:</label>
+                <input type="text" name="songtitle" id="songtitle" required="required"><br>
+                <label for="artist">*Artist:</label>
+                <input type="text" name="artist" id="artist" required="required"><br>
+                <label for="album">*Album:</label>
+                <input type="text" name="album" id="artist" required="required">
             </form>
         </body>
     </html>
